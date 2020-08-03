@@ -19,19 +19,16 @@ The project directory is structured as follows:
 
 ## 3 Scripts
 
-#### Minimal example and walkthrough.ipynb
+#### i) Minimal example and walkthrough.ipynb
 This is ntbk shows how to simulate a full scenario and how to process the dispatch results into WRF input files.
 
-#### Create WRF files from saved results.ipynb
+#### ii) Create WRF files from saved results.ipynb
 After simulating scenarios, we might want to save the dispatch results first, before transforming these into WRF inputs. This notebook demonstrates how to read saved results and then transform them.
 
 To save the results, simply pickle the results returned by `genDispatch.solve()`. `ToWRF.read_results()` lets you pick these results up.
 
-#### genDispatch config writer.ipynb
-Is an auxiliary script that lets you edit the config file conveniently.
-
-#### genDispatch metadata writer.ipynb
-Is another auxiliar script that lets you edit the metadata file conveniently.
+#### iii) genDispatch config writer.ipynb, genDispatch metadata writer.ipynb
+Is an auxiliary script that lets you conveniently edit the config and metadata files.
 
 
 # Credits
