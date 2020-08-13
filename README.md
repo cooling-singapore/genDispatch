@@ -35,7 +35,7 @@ After simulating scenarios, we might want to save the dispatch results first, be
 To save the results, simply pickle the results returned by `genDispatch.solve()`. `ToWRF.read_results()` lets you pick these results up.
 
 #### iii) genDispatch config writer.ipynb, genDispatch metadata writer.ipynb
-Is an auxiliary script that lets you conveniently edit the config and metadata files.
+These are auxiliary scripts that let you conveniently edit the config and metadata files, respectively.
 
 
 # Credits
