@@ -2,7 +2,14 @@
 Power plant dispatch model, including the energy product-only model of NEMS
 
 ## 1 Setup
-Copy all the files and directories (as they are) in your desired project location (just make sure you have write access to).
+Copy all the files and directories (as they are) in your desired project location (just make sure you have write access to). genDispatch was built with Python 3.7 and
+- NumPy 1.16.5
+- SciPy 1.3.1
+- Pandas 0.25.1
+- Matplotlib 3.1.1
+- Pint 0.9 (expicit units)
+- FuzzyWuzzy 0.17.0 (string matching)
+- xlrd 1.2.0
 
 ## 2 Project directory
 The project directory is structured as follows:
