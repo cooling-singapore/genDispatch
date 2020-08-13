@@ -27,7 +27,7 @@ The project directory is structured as follows:
 ## 3 Scripts
 
 #### i) Minimal example and walkthrough.ipynb
-This is ntbk shows how to simulate a full scenario and how to process the dispatch results into WRF input files.
+This ntbk shows how to simulate a full scenario and how to process the dispatch results into WRF input files.
 
 #### ii) Create WRF files from saved results.ipynb
 After simulating scenarios, we might want to save the dispatch results first, before transforming these into WRF inputs. This notebook demonstrates how to read saved results and then transform them.
